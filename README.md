@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-## _Before running the code make sure to follow below steps_
+## _Before running the code make sure to run below commands
 ```dart
 flutter pub get
 flutter pub run build_runner build --delete-conflicting-outputs
