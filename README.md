@@ -1,16 +1,20 @@
-# validus_coin
+# Validus Coin
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## _Before running the code make sure to follow below steps_
+```dart
+flutter pub get
+flutter pub run build_runner build --delete-conflicting-outputs
+```
 
-A few resources to get you started if this is your first Flutter project:
+> Note: Both unit test and widget test hasn't been covered fully, just written to show the usage.(Time constraints)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Local Database
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The local database used is [Hive](https://pub.dev/packages/hive) as it is one of the most popular and convenient plugin.
+
+## State management & Dependency management
+[GetX](https://pub.dev/packages/get#about-get) is used for state management and dependency injection, also one of the popular package 
