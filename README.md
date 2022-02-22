@@ -14,7 +14,7 @@ flutter pub run build_runner build --delete-conflicting-outputs
 
 ## Local Database
 
-The local database used is [Hive](https://pub.dev/packages/hive) as it is one of the most popular and convenient plugin.
+The local database used is [Hive](https://pub.dev/packages/hive), as it is one of the most popular and convenient plugin.
 
 ## State management & Dependency management
-[GetX](https://pub.dev/packages/get#about-get) is used for state management and dependency injection, also one of the popular package 
+[GetX](https://pub.dev/packages/get#about-get) is used for state management and dependency injection, also one of the popular package.
